@@ -1,0 +1,58 @@
+Level,Date and Time,Source,Event ID,Task Category,Log,Computer,
+Error,9/15/2017 8:30,EventCreate,1,None,Application,testhost695.jakarta.com,JAKARTA\sulaiman  
+Error,9/15/2017 8:31,EventCreate,1,None,Application,testhost221.jakarta.com,JAKARTA\mahendrars  
+Error,9/15/2017 8:32,EventCreate,1,None,Application,testhost618.jakarta.com,JAKARTA\pahlevi  
+Error,9/15/2017 8:32,EventCreate,1,None,Application,testhost569.jakarta.com,JAKARTA\Helena  
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost260.jakarta.com,JAKARTA\lucky  
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost590.jakarta.com,JAKARTA\heriyadi  
+Error,9/15/2017 8:33,Application Error,1000,-100,Application,testhost149.jakarta.com,"Faulting application name: OUTLOOK.EXE, version: 15.0.4919.1001, time stamp: 0x58d20482
+Faulting module name: OUTLOOK.EXE, version: 15.0.4919.1001, time stamp: 0x58d20482
+Exception code: 0xc0000005
+Fault offset: 0x008924c4
+Faulting process id: 0x990
+Faulting application start time: 0x01d32dc029fd2906
+Faulting application path: C:\Program Files\Microsoft Office\Office15\OUTLOOK.EXE
+Faulting module path: C:\Program Files\Microsoft Office\Office15\OUTLOOK.EXE
+Report Id: e4a7829a-99b5-11e7-8afb-0050569f3304"
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost149.jakarta.com,JAKARTA\enrikko  
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost303.jakarta.com,JAKARTA\Rumata  
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost472.jakarta.com,JAKARTA\MahendraR  
+Error,9/15/2017 8:33,EventCreate,1,None,Application,testhost175.jakarta.com,JAKARTA\Didik  
+Error,9/15/2017 8:34,EventCreate,1,None,Application,testhost177.jakarta.com,JAKARTA\richard  
+Error,9/15/2017 8:34,EventCreate,1,None,Application,testhost457.jakarta.com,JAKARTA\Adjeng  
+Error,9/15/2017 8:35,EventCreate,1,None,Application,testhost455.jakarta.com,JAKARTA\yudistira  
+Error,9/15/2017 8:35,EventCreate,1,None,Application,testhost430.jakarta.com,JAKARTA\vita  
+Error,9/15/2017 8:35,EventCreate,1,None,Application,testhost512.jakarta.com,JAKARTA\guestisd27  
+Error,9/15/2017 8:35,EventCreate,1,None,Application,testhost336.jakarta.com,JAKARTA\badrudin  
+Error,9/15/2017 8:36,EventCreate,1,None,Application,testhost066.jakarta.com,JAKARTA\Dini  
+Error,9/15/2017 8:36,WSH,1,None,Application,testhost273.jakarta.com,"CN=Teddy Suparwan Sutra password will expire in 3 day(s) at 9/18/2017 8:16:56 AM
+
+Press CTRL + ALT + DEL and select the ""Change a password"" option."
+Error,9/15/2017 8:36,WSH,1,None,Application,testhost273.jakarta.com,"CN=Teddy Suparwan Sutra password will expire in 3 day(s) at 9/18/2017 8:16:56 AM
+
+Press CTRL + ALT + DEL and select the ""Change a password"" option."
+Error,9/15/2017 8:36,EventCreate,1,None,Application,testhost687.jakarta.com,JAKARTA\hirano  
+Error,9/15/2017 8:37,EventCreate,1,None,Application,testhost273.jakarta.com,JAKARTA\teddy  
+Error,9/15/2017 8:38,EventCreate,1,None,Application,testhost287.jakarta.com,JAKARTA\jidromann  
+Error,9/15/2017 8:38,EventCreate,1,None,Application,testhost549.jakarta.com,JAKARTA\meltsaury  
+Error,9/15/2017 8:38,EventCreate,1,None,Application,testhost545.jakarta.com,JAKARTA\dini hariyani  
+Error,9/15/2017 8:40,EventCreate,1,None,Application,testhost005.jakarta.com,JAKARTA\Marlina  
+Error,9/15/2017 8:40,EventCreate,1,None,Application,testhost331.jakarta.com,JAKARTA\Marthen  
+Error,9/15/2017 8:41,EventCreate,1,None,Application,testhost462.jakarta.com,JAKARTA\guestisd20  
+Error,9/15/2017 8:41,EventCreate,1,None,Application,testhost597.jakarta.com,JAKARTA\boby  
+Error,9/15/2017 8:41,EventCreate,1,None,Application,testhost364.jakarta.com,JAKARTA\ramantid  
+Error,9/15/2017 8:42,Application Error,1000,-100,Application,testhost284.jakarta.com,"Faulting application name: OUTLOOK.EXE, version: 15.0.4919.1001, time stamp: 0x58d20482
+Faulting module name: OUTLOOK.EXE, version: 15.0.4919.1001, time stamp: 0x58d20482
+Exception code: 0xc0000005
+Fault offset: 0x008924c4
+Faulting process id: 0xccc
+Faulting application start time: 0x01d32dbf769ee120
+Faulting application path: C:\Program Files\Microsoft Office\Office15\OUTLOOK.EXE
+Faulting module path: C:\Program Files\Microsoft Office\Office15\OUTLOOK.EXE
+Report Id: 160e36a8-99b7-11e7-9215-0050569f4a38"
+Error,9/15/2017 8:42,EventCreate,1,None,Application,testhost289.jakarta.com,JAKARTA\ailsa  
+Error,9/15/2017 8:42,EventCreate,1,None,Application,testhost128.jakarta.com,JAKARTA\marlina2  
+Error,9/15/2017 8:42,EventCreate,1,None,Application,testhost694.jakarta.com,JAKARTA\Widi Anggraeni  
+Error,9/15/2017 8:43,EventCreate,1,None,Application,testhost438.jakarta.com,JAKARTA\yudi  
+Error,9/15/2017 8:43,EventCreate,1,None,Application,testhost657.jakarta.com,JAKARTA\AdindaGita  
+Error,9/15/2017 8:43,EventCreate,1,None,Application,testhost208.jakarta.com,JAKARTA\septi  

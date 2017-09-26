@@ -6,7 +6,7 @@ Sysinternals - www.sysinternals.com
 
 UserName           
 
-INDONESIA01\MFIRMAN  
+INDONESIA01\MavMAN  
 
 
 
@@ -30,7 +30,7 @@ Sysinternals - www.sysinternals.com
 
 UserName        
 
-INDONESIA01\alia  
+INDONESIA01\alias  
 
 
 
@@ -54,7 +54,7 @@ Sysinternals - www.sysinternals.com
 
 UserName        
 
-INDONESIA01\erik  
+INDONESIA01\ercs  
 
 
 
@@ -78,7 +78,7 @@ Sysinternals - www.sysinternals.com
 
 UserName        
 
-INDONESIA01\meri  
+INDONESIA01\medr  
 
 
 
@@ -102,7 +102,7 @@ Sysinternals - www.sysinternals.com
 
 UserName            
 
-INDONESIA01\Nur Alma  
+INDONESIA01\Nur
 
 
 

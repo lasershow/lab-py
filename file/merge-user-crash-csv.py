@@ -1,3 +1,5 @@
+# Add-In Crashの発生頻度を示す.csvファイルをユーザごとにまとめる
+
 import csv
 import re
 
@@ -5,7 +7,7 @@ def output_csv(ary):
     # ファイルを書き込みモードでオープン
     with open('user_data.csv', 'w') as f:
         writer = csv.writer(f, lineterminator='\n')
-    
+
         # 出力
         writer.writerows(ary)  # 内容を書き込む
         # ファイルクローズ
@@ -16,12 +18,12 @@ dateReg = re.compile(r'\d{4}-\d{1,2}-\d{1,2}')
 def is_timing(s):
     return dateReg.match(s) is not None
 
-#INDONESIA01\MFIRMAN 
+#INDONESIA01\MFIRMAN
 userReg = re.compile(r'^INDONESIA01')
 def is_user(s):
     return userReg.match(s) is not None
 
-#INNVDIHOST065 
+#INNVDIHOST065
 vdiReg = re.compile(r'^INNVDIHOST')
 def is_vdi(s):
     return vdiReg.match(s) is not None
@@ -40,7 +42,7 @@ def sort_ary(ary):
 
     return update_ary
 
-##################### 
+#####################
 # Main
 ary = []
 tmp_ary = []
@@ -58,18 +60,18 @@ for line in lines:
     if is_timing(line):
         tmp_ary.append(line)
 
-    #INDONESIA01\MFIRMAN 
+    #INDONESIA01\MFIRMAN
     elif is_user(line):
         tmp_ary.append(line)
 
-    #INNVDIHOST065 
+    #INNVDIHOST065
     elif is_vdi(line):
         tmp_ary.append(line)
-        
+
     else:
         continue
 
-    i+=1    
+    i+=1
 
 output_csv(sort_ary(tmp_ary))
 print("done")
