@@ -1,0 +1,130 @@
+
+# input
+```
+# 文字列を" "で区切って、int型で、リストに追加
+    score_ilist = list(map(int,input_scores.split(" ")))
+```
+# slice
+```
+# 文字列を逆表示
+str[::-1]
+```
+
+# if
+```
+# 文字列'S'なら
+        if t is 'S':
+
+# int型なら
+    if isinstance(x, int):
+
+# Trueなら
+    if isinteger(tmp):
+```
+# list
+```
+# 整数の桁をリストで取得
+l = list(map(int, num))
+
+# listを','でつなげる
+','.join(ary)
+
+```
+# 変数チェック
+```
+if not 1 <= num <= 100:
+   quite()
+```
+
+# 関数
+```
+# 四捨五入
+round(ave,1)
+
+# ランダム
+print(random.randint(0,4))
+
+# 追加
+input_array.add(input_num)
+
+# 集合/set　論理演算
+pythonで論理演算やります。大変参考にしたのはこちら。
+
+[Python: set型の集合演算で2つのリスト要素を比較](http://www.yukun.info/blog/2008/08/python-set-list-comparison.html)
+
+## set準備（よく忘れる）
+'''
+>>> old = ['a','b','c']
+>>> new = ['a','c','d','e']
+>>> set(old)
+{'c', 'a', 'b'}
+>>> set(new)
+{'c', 'd', 'e', 'a'}
+>>> old_set = set(old)
+>>> new_set = set(new)
+>>> old_set;new_set
+{'c', 'a', 'b'}
+{'c', 'd', 'e', 'a'}
+'''
+
+## 試してみる
+'''
+>>> old_set + new_set
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+>>> old_set - new_set
+{'b'}
+'''
+
+Q) あれ論理積どうやってやるの。。。
+A) 論理積、排他的論理和、論理和はこちらです。
+
+>>> old_set & new_set
+{'c', 'a'}
+>>> old_set ^ new_set
+{'b', 'd', 'e'}
+>>> old_set | new_set
+{'d', 'a', 'b', 'c', 'e'}
+>>>
+
+## あとがき
+
+しっかり覚えてましょう（自分へ）。
+
+
+# set取り出し
+```
+print(ans.pop())
+```
+
+# AND OR
+```
+if 25 <= temp or humid <= 40:
+    if 25 <= temp and humid <= 40:
+```
+# 正規表現
+```
+#2017-08-21 11:53:35Z
+dateReg = re.compile(r'\d{4}-\d{1,2}-\d{1,2}')
+def is_timing(s):
+    return dateReg.match(s) is not None
+
+#INDONESIA01\MFIRMAN
+userReg = re.compile(r'^INDONESIA01')
+def is_user(s):
+    return userReg.match(s) is not None
+
+#INNVDIHOST065
+vdiReg = re.compile(r'^INNVDIHOST')
+def is_vdi(s):
+    return vdiReg.match(s) is not None
+
+#ドメインアカウント名取得
+    def is_username(s):
+        """Check whether detail is username or not."""
+        usernameReg = re.compile(r'^(.+)\\(.+)')
+        return usernameReg.match(s) is not None
+```
+# 数字の何桁目の数字をリストで取得
+    l = list(map(int, num))
